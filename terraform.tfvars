@@ -10,7 +10,7 @@ parameters = {
   "shipping.dev.CART_ENDPOINT"  = { type = "String", value = "cart-dev.rdevopsb72.online:80" }
   "shipping.dev.DB_HOST"        = { type = "String", value = "dev-mysql-rds-cluster.cluster-cmscnppwjzuf.us-east-1.rds.amazonaws.com" }
 
-  "payment.dev.CART_HOST"  = { type = "String", value = "cart-dev.rdevopsb72.online:80" }
+  "payment.dev.CART_HOST"  = { type = "String", value = "cart-dev.rdevopsb72.online" }
   "payment.dev.CART_PORT"  = { type = "String", value = "80" }
   "payment.dev.USER_HOST"  = { type = "String", value = "user-dev.rdevopsb72.online" }
   "payment.dev.USER_PORT"  = { type = "String", value = "80" }
