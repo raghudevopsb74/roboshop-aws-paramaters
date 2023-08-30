@@ -10,6 +10,15 @@ parameters = {
   "shipping.dev.CART_ENDPOINT"  = { type = "String", value = "cart-dev.rdevopsb72.online:80" }
   "shipping.dev.DB_HOST"        = { type = "String", value = "dev-mysql-rds-cluster.cluster-cmscnppwjzuf.us-east-1.rds.amazonaws.com" }
 
+  "payment.dev.CART_HOST"  = { type = "String", value = "cart-dev.rdevopsb72.online:80" }
+  "payment.dev.CART_PORT"  = { type = "String", value = "80" }
+  "payment.dev.USER_HOST"  = { type = "String", value = "user-dev.rdevopsb72.online" }
+  "payment.dev.USER_PORT"  = { type = "String", value = "80" }
+  "payment.dev.AMQP_HOST"  = { type = "String", value = "rabbitmq-dev.rdevopsb72.online" }
+
+  "rabbitmq.dev.AMQP_USER"  = { type = "String", value = "cart-dev.rdevopsb72.online:80" }
+  "rabbitmq.dev.AMQP_PASS"  = { type = "String", value = "cart-dev.rdevopsb72.online:80" }
+
   ## Usually the passwords are not at all preferred to keep under git repo., Usually in orgs we always create passwords in manual way whomever have access. In class we keep it here for easy reference
   ## Passwords
   "docdb.dev.master_password" = { type = "String", value = "roboshop1234" }
