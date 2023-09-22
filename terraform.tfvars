@@ -27,5 +27,9 @@ parameters = {
   ## ElasticSearch
   "elasticsearch.username" = { type = "String", value = "elastic" }
   "elasticsearch.password" = { type = "SecureString", value = "IE_jRn*H5wKGW*q12UAC" }
+
+  ##Nexus
+  "nexus.username" = { type = "String", value = "admin" }
+  "nexus.password" = { type = "SecureString", value = "admin123" }
 }
 
