@@ -29,8 +29,10 @@ parameters = {
   "elasticsearch.password" = { type = "SecureString", value = "IE_jRn*H5wKGW*q12UAC" }
 
   ##Nexus
-  "nexus.username" = { type = "String", value = "admin" }
-  "nexus.password" = { type = "SecureString", value = "admin123" }
+  "nexus.username"     = { type = "String", value = "admin" }
+  "nexus.password"     = { type = "SecureString", value = "admin123" }
+  "nexus.dev.username" = { type = "String", value = "admin" }
+  "nexus.dev.password" = { type = "SecureString", value = "admin123" }
 
   ##AppVersion
   "payment.dev.appVersion"   = { type = "String", value = "1.0.0" }
