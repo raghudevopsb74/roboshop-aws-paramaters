@@ -45,15 +45,15 @@ parameters = {
 
   ## PROD ENV
   "docdb.prod.master_username"  = { type = "String", value = "docdbadmin" }
-  "docdb.prod.endpoint"         = { type = "String", value = "dev-docdb-cluster.cluster-cmscnppwjzuf.us-east-1.docdb.amazonaws.com" }
+  "docdb.prod.endpoint"         = { type = "String", value = "prod-docdb-cluster.cluster-cmscnppwjzuf.us-east-1.docdb.amazonaws.com" }
   "rds.prod.master_username"    = { type = "String", value = "devadmin" }
   "rds.prod.database_name"      = { type = "String", value = "dummy" }
-  "user.prod.REDIS_HOST"        = { type = "String", value = "dev-redis-elasticache-cluster.ppugfs.0001.use1.cache.amazonaws.com" }
-  "cart.prod.REDIS_HOST"        = { type = "String", value = "dev-redis-elasticache-cluster.ppugfs.0001.use1.cache.amazonaws.com" }
+  "user.prod.REDIS_HOST"        = { type = "String", value = "prod-redis-elasticache-cluster.ppugfs.0001.use1.cache.amazonaws.com" }
+  "cart.prod.REDIS_HOST"        = { type = "String", value = "prod-redis-elasticache-cluster.ppugfs.0001.use1.cache.amazonaws.com" }
   "cart.prod.CATALOGUE_HOST"    = { type = "String", value = "catalogue-prod.rdevopsb72.online" }
   "cart.prod.CATALOGUE_PORT"    = { type = "String", value = "80" }
   "shipping.prod.CART_ENDPOINT" = { type = "String", value = "cart-prod.rdevopsb72.online:80" }
-  "shipping.prod.DB_HOST"       = { type = "String", value = "dev-mysql-rds-cluster.cluster-cmscnppwjzuf.us-east-1.rds.amazonaws.com" }
+  "shipping.prod.DB_HOST"       = { type = "String", value = "prod-mysql-rds-cluster.cluster-cmscnppwjzuf.us-east-1.rds.amazonaws.com" }
 
   "payment.prod.CART_HOST" = { type = "String", value = "cart-prod.rdevopsb72.online" }
   "payment.prod.CART_PORT" = { type = "String", value = "80" }
