@@ -61,9 +61,9 @@ parameters = {
   "user.prod.MONGO_URL"    = { type = "SecureString", value = "mongodb://docdbadmin:roboshop1234@prod-docdb-cluster.cluster-cmscnppwjzuf.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"}
   "user.prod.DOCUMENTDB" = {type = "String", value = "true"}
 
-  "payment.prod.CART_HOST" = { type = "String", value = "cart-prod.rdevopsb72.online" }
+  "payment.prod.CART_HOST" = { type = "String", value = "cart" }
   "payment.prod.CART_PORT" = { type = "String", value = "80" }
-  "payment.prod.USER_HOST" = { type = "String", value = "user-prod.rdevopsb72.online" }
+  "payment.prod.USER_HOST" = { type = "String", value = "user" }
   "payment.prod.USER_PORT" = { type = "String", value = "80" }
   "payment.prod.AMQP_HOST" = { type = "String", value = "rabbitmq-prod.rdevopsb72.online" }
 
