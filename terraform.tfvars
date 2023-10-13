@@ -53,7 +53,7 @@ parameters = {
   "cart.prod.REDIS_HOST"        = { type = "String", value = "prod-redis-elasticache-cluster.ppugfs.0001.use1.cache.amazonaws.com" }
   "cart.prod.CATALOGUE_HOST"    = { type = "String", value = "catalogue" }
   "cart.prod.CATALOGUE_PORT"    = { type = "String", value = "80" }
-  "shipping.prod.CART_ENDPOINT" = { type = "String", value = "cart-prod.rdevopsb72.online:80" }
+  "shipping.prod.CART_ENDPOINT" = { type = "String", value = "cart:80" }
   "shipping.prod.DB_HOST"       = { type = "String", value = "prod-mysql-rds-cluster.cluster-cmscnppwjzuf.us-east-1.rds.amazonaws.com" }
   "catalogue.prod.MONGO_URL"    = { type = "SecureString", value = "mongodb://docdbadmin:roboshop1234@prod-docdb-cluster.cluster-cmscnppwjzuf.us-east-1.docdb.amazonaws.com:27017/users?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"}
   "catalogue.prod.DOCUMENTDB" = {type = "String", value = "true"}
